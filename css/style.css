@@ -62,6 +62,15 @@ body {
     background-position: center; 
 }
 
+.bg-home {
+    position: absolute;
+    width: 681px;
+    height: 680px;
+    left: 0px;
+    top: 0px;
+    background-image: url(img/home-banner.png);
+}
+
 
 .home-form {
     position: absolute;

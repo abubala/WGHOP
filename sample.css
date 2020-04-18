@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, Roboto, sans-serif;
+    background-color: #27303A;
+    font-size: 1.1em;
+    color: #ffffff;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(img/bg.png)
+}
+
+/* Main body */
+.main-body {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.display-standard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Brand Logo */
+.top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 105px;    
+    align-items: center;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Desktop Menu List */
+.menu-list {
+    position: absolute;
+    width: 273px;
+    height: 444px;
+    left: 80px;
+    top: 106px;
+    background: #171C28;
+    border-radius: 15px;
+}
+
+
+/* Main registration form */
+.reg-form {
+    position: absolute;
+    width: 478px;
+    height: 444px;
+    left: 461px;
+    top: 166px;
+    background: #171C28;
+    border-radius: 15px;
+}
+
+h2.title {
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.input-group input {
+    font-size: 12px;
+    margin-bottom: 32px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(0, 0, 0, 0.4);
+    padding-left: 13px;
+}
+
+.input-group input:hover {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    background-color: #5629EE;
+    outline: none;
+    color: inherit;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0a2270;
+}
+
+.btn:focus {
+    background-color: #627fdd;
+}
+
+/* Mac Mock Image */
+.mac img {
+    position: absolute;
+    width: 470px;
+    height: 298px;
+    left: 1011px;
+    top: 216px;
+}
+
+
+
+/* For desktops and tabs only */
+
+
+/* Form mobile only */
+@media (max-width: 768px) {
+    .main-body .mac, .main-body .menu-list {
+    display: none;
+    }
+
+    .reg-form {
+        position: inherit;
+        display: flex;
+        width: 95vw;
+        height: 80vh;
+        padding-top: 10px;
+        background: #171C28;
+        border-radius: 11px;
+    }
+}
+
