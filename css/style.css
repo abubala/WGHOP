@@ -6,15 +6,18 @@
     box-sizing: border-box;
 }
 
+/* Add root */
+
 body {
     padding: 0;
     margin: 0;
     font-family: Poppins, Roboto, sans-serif;
     background-color: #27303A;
-    background-image: url('img/bg.png');
     font-size: 1.1em;
     color: #ffffff;
     min-height: 100vh;
+    width: 100vw;
+    background-image: url(img/bg.png)
 }
 
 /* Grow */
