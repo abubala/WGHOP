@@ -278,9 +278,12 @@ hr.separator {
 
 /* Form mobile only */
 @media (max-width: 900px) {
-    .home-banner, .main-body .mac, .main-body.menu-list {
+    .home-banner, .main-body .mac {
     display: none;
     }
+    
+    .menu-list {
+        display: none;
 
     .reg-form {
         position: inherit;
