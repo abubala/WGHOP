@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
-
 
 body {
     padding: 0;
@@ -20,6 +19,16 @@ body {
     background-image: url(img/bg.png)
 }
 
+/* Brand Logo */
+.top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 105px;    
+    align-items: center;
+    margin-top: 30px;
+}
+
 /* Home-banner */
 .home-banner {
     background-image: url(img/home-banner.png);
@@ -31,6 +40,34 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+.home-logo img {
+    width: 90px;
+    margin-top: 35px;
+}
+
+/* Home form */
+section.form-section {
+    position: absolute;  
+    top: 50%; 
+    margin-top: -220px;
+    left: 0;
+    width: 100%;
+}
+
+form.home-form  {
+    width: 526px;
+    background: #171C28;
+    border-radius: 15px;
+    padding: 15px 35px;
+    margin: 0 auto;
+    border: 2px solid #da05f5;
+}
+
+.form-group-home {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Main body */
@@ -47,19 +84,13 @@ body {
 }
 
 
-/* Brand Logo */
-.top-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 105px;    
-    align-items: center;
-}
-
-
 .container {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.form-group-home button {
+    margin-bottom: 3em;
 }
 
 /* Desktop Menu List */
@@ -71,6 +102,28 @@ body {
     top: 106px;
     background: #171C28;
     border-radius: 15px;
+    border: 2px solid #da05f5
+}
+
+.menu-list ul {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 273px;
+    text-align: center;
+}
+
+.menu-list li {
+    letter-spacing: 2px;
+    padding: 9px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+li.active {
+    background-color: #ffffff0d;
 }
 
 
@@ -87,16 +140,24 @@ body {
 
 h2.title {
     margin-top: 35px;
+    margin-bottom: 12px;
     font-size: 20px;
     font-weight: bold;
-    line-height: 28px;
+    color: #f2f2f2;
+}
+
+span.description {
+    font-size: 12px;
+    margin-bottom: 1em;
+    color: #b0aaa4;
+    margin-bottom: 50px;
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 85%;
+    width: 83%;
     margin: 0 auto;
 }
 
@@ -110,10 +171,6 @@ h2.title {
     padding-left: 13px;
 }
 
-.input-group input:hover {
-    /* background-color: #f2f2f2; */
-}
-
 .btn {
     background-color: #5629EE;
     outline: none;
@@ -124,9 +181,43 @@ h2.title {
     height: 40px;
     border-radius: 5px;
     border: none;
-    padding: 7px;
     text-decoration: none;
     cursor: pointer;
+}
+
+btn b {
+    padding-left: 5px;
+}
+
+i.fa {
+    font-size: 19px;
+    padding-right: 7px;
+}
+
+/* Custom social */
+.facebook, .google, .email {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.btn.google {
+    background-color: #5D42C1;
+}
+
+.btn.email {
+    background-color: #E9E9E9;
+}
+
+.btn.email:hover {
+    background-color: rgb(204, 196, 196);
+}
+
+.btn.email a, .btn.email b, .btn.email i {
+    color: #4429F2;
+}
+
+.btn.email:hover {
+    color: #ffffff;
 }
 
 .btn:hover {
@@ -137,23 +228,57 @@ h2.title {
     background-color: #627fdd;
 }
 
+button.btn a {
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+button b {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #eae0e0;
+    font-size: 15px;
+}
+
+hr.separator {
+    width: 35%;
+    margin-top: -5px;
+    margin-bottom: 21px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
 /* Mac Mock Image */
-.mac img {
+.mac{
     position: absolute;
     width: 470px;
     height: 298px;
-    left: 1011px;
+    left: 1100px;
     top: 216px;
+    background-image: url(img/mac.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
+.progress-bar {
+    position: static;
+    width: 159px;
+    height: 159px;
+    left: 137px;
+    background-image: url(img/progress.png);
+    margin: 57px;
+}
 
 
 /* For desktops and tabs only */
 
 
 /* Form mobile only */
-@media (max-width: 768px) {
-    .main-body .mac, .main-body .menu-list {
+@media (max-width: 900px) {
+    .home-banner, .main-body .mac, .main-body.menu-list {
     display: none;
     }
 
