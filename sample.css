@@ -278,7 +278,7 @@ hr.separator {
 
 /* Form mobile only */
 @media (max-width: 900px) {
-    .home-banner, .main-body .mac {
+ .main-body .mac {
     display: none;
     }
     
