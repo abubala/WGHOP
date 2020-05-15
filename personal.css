@@ -1,0 +1,12 @@
+/* Styles for the Personal Information page only  */
+
+@media screen and (max-width: 1024px) {
+    section.form-section {
+        position: inherit;
+        margin: 30px auto;
+    }
+}
+
+.btn {
+    font-size: 17px;
+}
