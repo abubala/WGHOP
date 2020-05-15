@@ -125,7 +125,7 @@ form.home-form {
 
 .menu-list li {
     letter-spacing: 2px;
-    padding: 12px;
+    padding: 9px;
     font-weight: 400;
     font-size: 15px;
     list-style: none;
@@ -187,7 +187,7 @@ span.description {
     background-color: #5629EE;
     color: inherit;
     font-size: 13px;
-    height: 30px;
+    height: 37px;
     border-radius: 5px;
     border: none;
     padding-right: 2em;
@@ -280,9 +280,17 @@ h2.title.pinfo {
 }
 
 .details input {
-    margin-bottom: 2.9em;
+    margin-bottom: 2.7em;
 }
 
+form.home-form.home {
+    height: 500px;
+}
+
+a.btn.facebook, a.btn.google, a.btn.email {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 /* For tabs only */
 
 @media screen and (max-width: 1024px) {
@@ -305,7 +313,7 @@ h2.title.pinfo {
         margin-bottom: 27px;
     }
     .btn {
-        font-size: 19px;
+        font-size: 15px;
     }
 }
 
