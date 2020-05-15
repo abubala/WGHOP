@@ -1,0 +1,42 @@
+@media screen and ( max-width: 1200px) {
+    form.home-form {
+        width: 330px;
+        height: 442px;
+    }
+    .menu-list {
+        width: 235px;
+        height: 410px;
+        left: 31px;
+    }
+    .menu-list ul {
+        width: 233px;
+    }
+    .progress-bar {
+        margin: 40px;
+    }
+    .mac {
+        width: 330px;
+    }
+    h2.title {
+        margin-bottom: 25px;
+    }
+}
+
+button.register {
+    background: #5629EE;
+    border: none;
+    color: #ffffff;
+    height: 37px;
+    border-radius: 7px;
+    margin: auto;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+button.register:hover {
+    background: #775dd0;
+}
+
+.input-group input {
+    height: 35px;
+}
