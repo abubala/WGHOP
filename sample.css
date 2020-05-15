@@ -62,8 +62,13 @@ section.form-section {
 
 form.home-form {
     top: 170px;
+<<<<<<< HEAD
     width: 477px;
     height: 475px;
+=======
+    width: 425px;
+    height: 450px;
+>>>>>>> 98e5d6667ab107ac650b9704440dcbf02a85724d
     background: #171C28;
     border-radius: 15px;
     padding: 15px 20px;
@@ -186,15 +191,24 @@ span.description {
 .btn {
     background-color: #5629EE;
     color: inherit;
+<<<<<<< HEAD
     font-size: 13px;
     height: 37px;
+=======
+    font-size: 14px;
+    height: 40px;
+>>>>>>> 98e5d6667ab107ac650b9704440dcbf02a85724d
     border-radius: 5px;
     border: none;
     padding-right: 2em;
     padding-right: 2em;
     text-decoration: none;
     cursor: pointer;
+<<<<<<< HEAD
     padding: 7px;
+=======
+    padding: 10px;
+>>>>>>> 98e5d6667ab107ac650b9704440dcbf02a85724d
     margin: auto;
     margin-bottom: 2em;
 }
@@ -293,6 +307,11 @@ a.btn.facebook, a.btn.google, a.btn.email {
 }
 /* For tabs only */
 
+<<<<<<< HEAD
+=======
+/* For tabs only */
+
+>>>>>>> 98e5d6667ab107ac650b9704440dcbf02a85724d
 @media screen and (max-width: 1024px) {
     section.form-section {
         position: relative;
@@ -313,7 +332,11 @@ a.btn.facebook, a.btn.google, a.btn.email {
         margin-bottom: 27px;
     }
     .btn {
+<<<<<<< HEAD
         font-size: 15px;
+=======
+        font-size: 19px;
+>>>>>>> 98e5d6667ab107ac650b9704440dcbf02a85724d
     }
 }
 

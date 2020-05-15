@@ -5,7 +5,11 @@
     }
     .menu-list {
         width: 235px;
+<<<<<<< HEAD
         height: 410px;
+=======
+        height: 390px;
+>>>>>>> 98e5d6667ab107ac650b9704440dcbf02a85724d
         left: 31px;
     }
     .menu-list ul {
